@@ -1,1 +1,1 @@
-# History of the Internet Project
+# How the Internet Works Project

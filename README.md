@@ -4,4 +4,4 @@ Welcome to my IS 601 How the Internet Works project!
 
 The live website link can be found below:
 
-LINK
+https://mjdroz.github.io/IS601-HowTheInternetWorks/

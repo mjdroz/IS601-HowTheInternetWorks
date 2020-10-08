@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Domain Names and ICANN</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+<body>
+
+<!-- Nav Bar Code -->
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black">
+    <a class="navbar-brand" href="index.html">How the Internet Works</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="aboutpage.html">About Page</a>
+            </li>
+            <!-- Dropdown Menu -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    History of the Internet
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="invention.html">Invention</a>
+                    <a class="dropdown-item" href="browser-wars.html">Browser Wars</a>
+                    <a class="dropdown-item" href="internet-search.html">Internet Search</a>
+                    <a class="dropdown-item" href="dot-com-bubble.html">Dot Com Bubble</a>
+                    <a class="dropdown-item" href="people.html">People</a>
+                    <a class="dropdown-item" href="internet-history.html">History of the Internet</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    How the Internet Works
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="domain-icann.html">Domain Names and ICANN</a>
+                    <a class="dropdown-item active" href="ip-packet-routing.html">IP Addresses, Packets, and Routing</a>
+                    <a class="dropdown-item" href="...">DNS</a>
+                    <a class="dropdown-item" href="...">HTTP and HTTPS Protocols</a>
+                    <a class="dropdown-item" href="...">W3c and HTML and CSS</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Content here -->
+<div class="container mt-3">
+    <div class="row">
+        <!--IP Addresses, Packets, and Routing -->
+        <div class="col-8">
+            <h1>IP Addresses, Packets, and Routing</h1>
+            <br>
+            <!--IP Addresses-->
+            <h2>IP Addresses</h2>
+            <p>
+                Internet Protocol Addresses (IP Addresses) are numbered addresses for devices or websites within a
+                network, mainly the Internet. As mentioned in the video, “The Internet- IP Addresses and DNS Part 3”,
+                these addresses are like home addresses in real life where they list the region, country, subnet, and
+                device all in one set of numbers. While not explicitly stating the location of the device, your computer
+                will know how to get the address when it attempts to connect or send something to it. Routers on your
+                network will communicate with other routers and network devices in order to figure how many hops it will
+                take for you to reach your destination. This wonderful invention was the result of the previous work of
+                Vint Cerf and Bob Kahn. There are two types of IP addresses, IPv4 and IPv6. IPv4 was the original
+                address format, which contained a set of 32-bit (4 octets) addresses used to identify websites or
+                device. Due the monstrous takeoff of the Internet over the last few decades, IANA and other
+                organizations have been spearheading a new project, IPv6, which is going to be able to incorporate every
+                device in the world for the foreseeable future. IPv6 uses a 128-bit (16 octets) address for devices and
+                websites. With the switch to IPv6 underway, the Internet can continue to exponentially grow!
+            </p>
+            <p>
+                Some examples of how you could you IP addresses:
+            <ul>
+                <li> Filter IP addresses on a website to limit traffic from certain regions</li>
+                <li> Access websites like “www.google.com”</li>
+                <li> Subnet a block of addresses to increase the amount of devices on your network</li>
+                <li> Spoof your private network with a VPN address. This is handy for security purposes!</li>
+            </ul>
+            </p>
+            <p>
+                We use IP addresses to designate different devices and websites on a network. In the case of a small
+                network, IP addresses can be used to differentiate devices and help keep the network traffic organized
+                and going in the right direction. As for the Internet, IP addresses are used to communicate with
+                websites, applications, and other devices. IP addresses enable the Internet to have things like websites
+                and communication services. Without IP addresses, the Internet would not be as useful as it today!
+            </p>
+            <!--Packets-->
+            <h2>Packets</h2>
+            <p>
+                The formal definition of a packet, according to Wikipedia, is that “a packet is a formatted unit of
+                data”. Packets contain control information, which tells them where to go and where they are coming from,
+                and user data, which is sometimes called the payload. According to the video “The Internet- Packets,
+                Routing and Reliability Part 4”, packets carry information from one computer to another without having a
+                defined path. Also mentioned in the video, packets carry two parts of information when it comes to
+                guidance, the "to" and "from" addresses. It is important to note that these addresses are IP addresses,
+                which were defined above.
+            </p>
+            <p>
+                Some examples of how packets would be used would be:
+            <ul>
+                <li> Playing a song from Spotify (as seen in “The Internet- Packets, Routing and Reliability Part 4”)
+                </li>
+                <li> Playing a video from YouTube</li>
+                <li> Sending a file to a friend</li>
+                <li> Downloading software from a website</li>
+            </ul>
+            </p>
+            <p>
+                We use packets to send and receive information in a timely and effective manner. Packets are used to
+                split the data up into “chunks” and send it to the recipient safely. Without packets, we would see data
+                transmission slowing down, or stopped all together. Packets give the users the ability to send large
+                amounts of data to the recipient, which again makes communication over the Internet a whole lot easier.
+                Finally, packets use the transport protocol called TCP. This protocol is used to make sure all data is
+                being sent and receive without any errors, and therefore, it allows for a better user experience. All in
+                all, packets are envelopes of the Internet, as they carry data from one computer to the next ensuring it
+                is not tampered with.
+            </p>
+            <!--Routing-->
+            <h2>Routing</h2>
+            <p>
+                The formal definition of routing is the process of directing traffic on a network or multiple networks.
+                Routing is done through the use of networking routers. These devices are designed to find the “path of
+                least resistance” or in other words the shortest path to the destination. As noted in the video “The
+                Internet- Packets, Routing and Reliability Part 4”, sometimes the best route for data to travel is not
+                always the most direct route. Having multiple routes for data to travel logged inside of the router,
+                allows for something called fault tolerance. This means that if one or more paths are broken there are
+                other routes that become the new “fastest” route. If you have not noticed already, the more routers that
+                you have, the more reliable the transmission of data will be on that network.
+            </p>
+            <p>
+                Some examples of routing would be:
+            <ul>
+                <li> Transmitting songs from Spotify (as seen in “The Internet- Packets, Routing and Reliability Part
+                    4”)
+                </li>
+                <li> Transmitting an email across a network</li>
+                <li> Connecting a user to a website not hosted on the local network</li>
+            </ul>
+            </p>
+            <p>
+                Routing is the backbone of the Internet’s communication framework. Without this technology, information
+                and data being sent across networks would either never make it to the target or be damaged in
+                transmission. Routing is also used to connect users to websites that are scattered throughout the
+                Internet. Even if the router does not know the address of the site you are trying to access, it will ask
+                other routers around it to help find the IP address for the site. Routing is a useful tool that reshaped
+                how we use the Internet, especially in a global environment. Overall, this technology allows for better
+                use of data transmission and connectivity throughout the Internet.
+            </p>
+        </div>
+        <!--IP Image-->
+        <div class="col-4 mt-3">
+            <div class="card" style="height: auto">
+                <img class="card-img-top" src="images/ip-packet-routing-images/new-IPPacketRouting.png"
+                     alt="IP Addresses, Packet, Routing Image">
+                <div class="card-body">
+                    <h4>The Life of an IP Packet</h4>
+                    <p class="card-text"> This image shows the process an IP packet undergoes, which is what we
+                        talk about here on this page! First the sender sends the packet to the router, which has a routing
+                        table used to find the shortest path to the destination (seen in photo). Then the packet is sent
+                        to the destination with a return addresses (seen in photo).
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!--Sources Section-->
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-8">
+            <h3>Sources</h3>
+            <p>
+            <h4>Information Sources</h4>
+            <!--IP Addresses-->
+            IP Addresses: <a href="https://njit.instructure.com/courses/13041/files/1130369?module_item_id=334773">The
+            Internet- IP Addresses and DNS Part 3</a>
+            <br>
+            IP Addresses: <a
+                href="https://en.wikipedia.org/wiki/IP_address">https://en.wikipedia.org/wiki/IP_address</a>
+            <br>
+            <!--Packets-->
+            Packets: <a href="https://njit.instructure.com/courses/13041/files/1130358?module_item_id=334774">The
+            Internet- Packets, Routing and Reliability Part 4</a>
+            <br>
+            Packets: <a
+                href="https://en.wikipedia.org/wiki/Network_packet">https://en.wikipedia.org/wiki/Network_packet</a>
+            <br>
+            <!--Routing-->
+            Routing: <a href="https://njit.instructure.com/courses/13041/files/1130358?module_item_id=334774">The
+            Internet- Packets, Routing and Reliability Part 4</a>
+            <br>
+            Routing: <a href="https://en.wikipedia.org/wiki/Routing">https://en.wikipedia.org/wiki/Routing</a>
+            <h4>Image Sources</h4>
+            Life of an IP Packet Image: <a
+                href="https://www.futurelearn.com/courses/introduction-to-networking/0/steps/53448">https://www.futurelearn.com/courses/introduction-to-networking/0/steps/53448</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<!--JavaScript-->
+<script language="JavaScript" type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
